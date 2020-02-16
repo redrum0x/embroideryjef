@@ -1,0 +1,17 @@
+{
+  "name": "redrum0x/embroideryjef",
+  "description": "JEF file embroidery reader",
+  "homepage": "https://github.com/redrum0x/embroideryjef",
+  "license": "GPL-2.0-with-autoconf-exception",
+  "type": "library",
+  "require": {
+    "php": ">=7.1.0",
+    "ext-gd": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "redrum0x\\embroideryJef\\": "src"
+    }
+  }
+}
